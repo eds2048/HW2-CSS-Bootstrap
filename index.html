@@ -14,7 +14,7 @@
 <!-- NavBar From WC3) -->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Home</a>
+    <a class="navbar-brand" href="https://eds2048.github.io/HW2-CSS-Bootstrap/">Home</a>
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,24 +25,34 @@
             <!-- <li class="nav-item active">
                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li> -->
+            
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/eds2048">Github</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     Dropdown
                 </a>
+
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Action</a>
                     <a class="dropdown-item" href="#">Another action</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Something else here</a>
                 </div>
+
             </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -51,46 +61,63 @@
     </div>
 </nav>
 
-<!-- Start with Container class then Rows then Columns -->
+<!-- Container then Rows then Columns -->
 
 <div class="container">
 <!-- First Row -->
     <div class="row">
-        <div class="col-md-12">
-            <h2>Edward Son</h2>
+        <div class="col-sm-12">
+            <h1>Name</h1>
         </div>
-    
     </div>
 <!-- Second Row -->
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-sm-4">
             <img src="https://oie.msu.edu/_assets/images/placeholder/placeholder-200x200.jpg">
         </div>
 
-        <div class="col-md-6">
-                <h1>Bio</h1>
+        <div class="col-sm-8">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-    
+
     </div>
+
 <!-- Third Row -->
     <div class="row">
-        <div class="col-md-12">
-            <p>This is my bio</p>
+
+
+        <div class="col-md-4">
+            <div class="card-deck">
+                <div class="card-body">
+                    <h2 class="card-title">Contact Info</h2>
+                    <ul>
+                        <li>email:<a href="esben90210@gmail.com"> esben9010@gmail.com</a></li>
+                        <li>gitHub:<a href="github.com/eds2048"> www.github.com/2048</a></li>
+                        <li>portfolio:</li>
+                    
+                    </ul>
+                </div>
+            </div>
         </div>
-            <h2>Contact Info</h2>
-
-            <div class="col-md-12">
-            <ul>
-                <li><b>Email:<b><a href="esben90210@gmail.com">Email</a>
-                </li>
-                <li>GitHub:</li>
-                <li>Portfolio:</li>
-
-            </ul>
+         
         </div>
     </div>
 
 </div>
+<!-- BONUS Bonus
+    Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site
+    (Hint: Check out the Bootstrap documentation).
+-->
+
+<footer class="footer footer-expand-lg footer-dark bg-dark">
+    <div class="container">
+        <span class="text-muted">Lorem ipsum dolor sit amet.</span>
+    </div>
+</footer>
 
 
 </body>
